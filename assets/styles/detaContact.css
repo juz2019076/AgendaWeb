@@ -4,18 +4,28 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     margin: 0; /* Para quitar el margen predeterminado del body */
+    padding: 0;
     font-family: 'Arial', sans-serif; /* Puedes ajustar la fuente según tus preferencias */
     width: 100%; /* Ajusta el ancho al 100% de la ventana */
     height: 100vh;
   }
 
-.container {
+  .container {
     max-width: 600px;
     margin: 50px auto;
     padding: 20px;
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; /* Añadido para centrar el contenido */
+}
+
+.image-container {
+    margin-top: 20px; /* Espacio entre el título y la imagen */
 }
 
 h1 {
