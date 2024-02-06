@@ -3,6 +3,6 @@ document.addEventListener('DOMContentLoaded', function() {
       event.preventDefault();
       // Realiza la lógica de autenticación si es necesario
       alert('Autenticación exitosa. Redirigiendo...');
-      window.location.href = '../pages/contactos.html'; // Ajusta la ruta según tus necesidades
+      window.location.href = './assets/pages/contactos.html'; // Ajusta la ruta según tus necesidades
   });
 });
