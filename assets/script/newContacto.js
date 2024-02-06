@@ -1,19 +1,3 @@
-const guardarContacto = (db, contacto) => {
-    db.setItem(contacto.id, JSON.stringify(contacto))
-    window.location.href = '/'
-
-}
-
-const cargarContactos = (db, parentNode) => {
-    let claves = Object.keys(db)
-    console.log(claves)
-    for (claves of claves) {
-        let contacto = JSON.parse(db.getItem(claves))
-        crearContacto(parentNode, contacto, db)
-
-    }
-}
-
 const crearContacto = (parentNode, contacto, db) => {
     let divContacto = document.createElement('div')
     let nombreContacto = document.createElement('h3')
