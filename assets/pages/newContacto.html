@@ -1,33 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,800&display=swap" rel="stylesheet">
+    <title>Nuevo contacto</title>
     <link rel="stylesheet" href="../styles/newContacto.css">
-    <title>Agenda Contactos</title>
-
+    <script src="../script/newContacto.js"></script>
 </head>
 <body>
     <div class="container">
-        <!-- Head -->
-        <h2>Agenda de contactos</h2>
-        <!-- Formulario de contactos -->
-        <div class="formulario-datos">
-            <input type="text" class="nombre" placeholder="nombre">
-            <input type="text" class="numero" placeholder="numero">
-            <input type="text" class="direccion" placeholder="direccion">
-            <button class="btn-agregar-tareas">Agregar Contacto</button>
-            <!-- Listado de tareas -->
-            <div class="Listado-Tareas">
+        <h1>Nuevo contacto</h1>
+        <form id="nuevoContactoForm">
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
             </div>
-        </div>
+            <div class="form-group">
+                <label for="correo">Correo:</label>
+                <input type="email" id="correo" name="correo" required>
+            </div>
+            <div class="form-group">
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" required>
+            </div>
+            <button type="submit">Agregar contacto</button>
+        </form>
     </div>
-    <script src="../script/newContacto.js"></script>
-    <script src="../script/newContacto2.js"></script>
 </body>
 </html>
