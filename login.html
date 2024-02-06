@@ -5,26 +5,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Login</title>
   <link rel="stylesheet" href="./assets/styles/login.css">
-  <script src="./assets/script/login.js"></script>
+  <script src="/assets/script/login.js"></script>
 </head>
 <body>
   <div class="login-box">
     <h1 style="text-align: center; color: #33997f;">Login</h1>
-    <form>
+    <form id="loginForm">
       <div class="user-box">
-        <input type="text" name="" required="">
+        <input type="text" name="correo" required="">
         <label>Correo</label>
       </div>
       <div class="user-box">
-        <input type="password" name="" required="">
+        <input type="password" name="contrasena" required="">
         <label>Contraseña</label>
       </div>
       <center>
-        <a type="button" onclick="NuevaPagina()">Inicio de sesión</a>
-           <span></span>
-        </center>
-      </form>
-    </div>
+        <button type="submit">Inicio de sesión</button>
+      </center>
     </form>
   </div>
 </body>
