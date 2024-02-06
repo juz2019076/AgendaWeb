@@ -1,6 +1,8 @@
-// En tu archivo login.js
-document.getElementById('loginForm').addEventListener('submit', function(event) {
-  event.preventDefault(); // Evita que el formulario se envíe normalmente
-  // Aquí puedes realizar cualquier validación o lógica antes de redirigir
-  location.href = "../pages/contactos.html"; // Redirige a la página que desees
+document.addEventListener('DOMContentLoaded', function() {
+  document.getElementById('loginForm').addEventListener('submit', function(event) {
+      event.preventDefault();
+      // Realiza la lógica de autenticación si es necesario
+      alert('Autenticación exitosa. Redirigiendo...');
+      window.location.href = '../pages/contactos.html'; // Ajusta la ruta según tus necesidades
+  });
 });

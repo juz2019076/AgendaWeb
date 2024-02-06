@@ -8,10 +8,16 @@
         font-family: 'Poppins', sans-serif;
         font-size: 65.5%;
     }
-    body{
-        background-color: rgba(0,0,0,.8);
-        color: rgba(200,200,200,.9);
-    }
+    body {
+        background-image: url('./images/1.jpeg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin: 0; /* Para quitar el margen predeterminado del body */
+        font-family: 'Arial', sans-serif; /* Puedes ajustar la fuente según tus preferencias */
+        width: 100%; /* Ajusta el ancho al 100% de la ventana */
+        height: 100vh;
+      }
     .container{
         height: 100vh;
         width: 70vw;
