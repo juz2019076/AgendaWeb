@@ -24,18 +24,23 @@ body {
     text-align: center; /* Añadido para centrar el contenido */
 }
 
-.image-container {
-    margin-top: 20px; /* Espacio entre el título y la imagen */
-}
-
 h1 {
     color: #33997f;
     text-align: center;
 }
 
+.contact-info {
+    margin-top: 20px; /* Espacio entre el título y la información del contacto */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .contact-details {
     list-style: none;
     padding: 0;
+    margin-left: 20px; /* Espacio entre la imagen y la lista de detalles */
+    text-align: left; /* Alinea el texto a la izquierda */
 }
 
 .contact-details li {
@@ -44,6 +49,11 @@ h1 {
 
 .contact-details li strong {
     font-weight: bold;
+}
+
+img {
+    max-width: 200px; /* Ajusta el ancho máximo de la imagen */
+    height: auto; /* Mantiene la proporción de aspecto */
 }
 
 .back-link {
