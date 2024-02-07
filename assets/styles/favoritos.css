@@ -1,0 +1,49 @@
+/* Estilos para la página de Favoritos */
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h2 {
+    color: #33997f;
+}
+
+.button-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.button-list li {
+    margin-bottom: 15px;
+}
+
+.full-rounded {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+.full-rounded:hover {
+    background-color: #e0e0e0;
+}
+
+.back-link {
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #33997f;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
